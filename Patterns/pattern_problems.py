@@ -85,3 +85,39 @@ def pattern_4(n):
 
 pattern_4(5)
 
+
+"""
+*****
+****
+***
+**
+*
+"""
+
+
+def pattern_5(n):
+    for i in range(1, n):
+        for j in range(n-i):
+            print("*", end="")
+        print()
+
+
+pattern_5(6)
+
+
+"""
+1234
+123
+12
+1
+"""
+
+def pattern_6(n):
+    for i in range(1, n):
+        for j in range(1, n-i):
+            print(j, end="")
+        print()
+
+
+pattern_6(6)
+
