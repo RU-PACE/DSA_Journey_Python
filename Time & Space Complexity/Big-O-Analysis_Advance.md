@@ -24,6 +24,20 @@ When faced with multiple correct solutions to a single problem, how do we determ
 
 To speak precisely about efficiency, engineers use three core mathematical notations: Big O, Big Omega, and Theta.
 
+***Dominant term rule***
+
+In Big-O, g(n) is chosen as the dominant (highest-order) term of f(n).
+
+Examples:
+
+| f(n)          | Dominant term | g(n)      |
+|---------------|---------------|-----------|
+| 2n + 3        | n             | n         |
+| 5n² + 7n + 10 | n²            | n²        |
+| log n + n     | n             | n         |
+| n log n + n   | n log n       | n log n   |
+
+
 ***Big O Notation (O)*** - The Upper Bound
 Big O notation describes an upper bound on an algorithm's runtime. This means the algorithm's performance will be at most a certain order of growth; it could be better, but it will never be worse. Its primary use case is to describe the worst-case scenario, which is often the most critical metric for performance guarantees. Mathematical Definition : A function f(n) is O(g(n)) if there exist positive constants c and n₀ such that f(n) ≤ c * g(n) for all n ≥ n₀.
 For example, the function f(n) = 2n + 3 is O(n). This can be proven by finding constants c=3 and n₀=3, for which the inequality 2n + 3 ≤ 3n holds true for all n ≥ 3.
