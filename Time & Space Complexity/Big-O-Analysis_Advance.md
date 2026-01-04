@@ -11,6 +11,7 @@
 8. [Best, Average, and Worst Case](#best-average-and-worst-case)
 9. [Space Complexity Analysis](#space-complexity-analysis)
 10. [Big O Cheat Sheet](#big-o-cheat-sheet)
+11. [References](#references)
 
 ---
 
@@ -964,6 +965,18 @@ def remove_duplicates(arr):
     
     return write_ptr
 ```
+
+---
+
+## References
+
+### Big-O-Notation Reference
+
+**NeetCode - Big O Notation Course:**
+- [https://neetcode.io/courses/lessons/big-o-notation](https://neetcode.io/courses/lessons/big-o-notation)
+
+**YouTube Tutorial:**
+- [Big O Notation - Full Course](https://youtu.be/Mo4vesaut8g?si=OzlAdrKuIj7YjDbG)
 
 ---
 
